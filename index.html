@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Development</title>
+
+    <!-- google font cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome script link  -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind & daisyUI link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'small-bg-color': '#ABEF5F',
+                        'primary-font-color': '#212121'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- styles  -->
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="manrope-font overflow-x-hidden">
+    <header class="w-10/12 mx-auto mt-7">
+        <nav class="navbar">
+            <div class="navbar-start">
+                <a class="text-xl flex items-center gap-2">
+                    <i class="fas fa-arrow-right -rotate-45 bg-small-bg-color p-3 rounded-full"></i>
+                    <span class="text-4xl font-extrabold text-primary-font-color">Rinterio</span></a>
+            </div>
+            <div class="navbar-center hidden md:flex">
+                <ul class="flex gap-9 menu-horizontal text-[#737373] px-1">
+                    <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Home</a></li>
+                    <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Services</a></li>
+                    <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Portfolio</a></li>
+                    <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Blogs</a></li>
+                    <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Contacts</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-xl dropdown-content">
+                        <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Home</a></li>
+                        <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Services</a></li>
+                        <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Portfolio</a></li>
+                        <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Blogs</a></li>
+                        <li class="hover:text-[#494949] hover:font-extrabold cursor-pointer"><a>Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block">
+                    <i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i>
+                    <button
+                        class="border-none rounded-[32px] text-[#1C1C1C] text-xl font-extrabold bg-small-bg-color px-5 py-3">Book
+                        Consult</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
